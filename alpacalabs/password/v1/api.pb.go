@@ -25,25 +25,28 @@ const _ = proto.ProtoPackageIsVersion3 // please upgrade the proto package
 func init() { proto.RegisterFile("alpacalabs/password/v1/api.proto", fileDescriptor_9cb87ca0f9d9da59) }
 
 var fileDescriptor_9cb87ca0f9d9da59 = []byte{
-	// 274 bytes of a gzipped FileDescriptorProto
-	0x1f, 0x8b, 0x08, 0x00, 0x00, 0x00, 0x00, 0x00, 0x02, 0xff, 0x8c, 0x90, 0x41, 0x4a, 0xc3, 0x40,
-	0x14, 0x86, 0x4d, 0x05, 0x17, 0x03, 0x2a, 0xcc, 0xa2, 0x8b, 0xac, 0xc4, 0x95, 0x0a, 0x99, 0x61,
-	0xf4, 0x04, 0x8d, 0xe0, 0xaa, 0x8b, 0xd0, 0x42, 0x16, 0x52, 0x08, 0x93, 0xc9, 0x6b, 0x0d, 0xa4,
-	0xbe, 0xe9, 0xcc, 0x34, 0xc1, 0xeb, 0xb8, 0xd3, 0xa3, 0x78, 0x15, 0x2f, 0x21, 0x49, 0x1d, 0xa2,
-	0xd0, 0x40, 0xd6, 0xef, 0xfb, 0xfe, 0xff, 0xf1, 0x93, 0x2b, 0x59, 0x69, 0xa9, 0x64, 0x25, 0x73,
-	0xcb, 0xb5, 0xb4, 0xb6, 0x41, 0x53, 0xf0, 0x5a, 0x70, 0xa9, 0x4b, 0xa6, 0x0d, 0x3a, 0xa4, 0xd3,
-	0x9e, 0x60, 0x9e, 0x60, 0xb5, 0x08, 0xc5, 0xb0, 0x99, 0x59, 0x27, 0x8d, 0xcb, 0x0c, 0x58, 0x70,
-	0xd9, 0xba, 0xc2, 0xe6, 0x10, 0x15, 0xde, 0x0c, 0x28, 0x35, 0x98, 0x72, 0xfd, 0x96, 0x29, 0x2c,
-	0xe0, 0x40, 0xde, 0x7f, 0x07, 0xe4, 0x32, 0xf9, 0x25, 0x96, 0x60, 0xea, 0x52, 0x01, 0xdd, 0x91,
-	0x8b, 0x65, 0x9b, 0xbb, 0x68, 0x63, 0x9f, 0x2a, 0x6c, 0x68, 0xc4, 0x8e, 0xff, 0xc6, 0xfe, 0x73,
-	0x0b, 0xd8, 0xed, 0xc1, 0xba, 0x90, 0x8d, 0xc5, 0xad, 0xc6, 0x57, 0x0b, 0xd7, 0x27, 0x14, 0x08,
-	0x49, 0xbb, 0xdf, 0x1e, 0xb1, 0x00, 0x7a, 0x3b, 0xe4, 0xf7, 0x8c, 0xaf, 0xba, 0x1b, 0x83, 0xfa,
-	0x9a, 0xf8, 0x23, 0x20, 0xa1, 0xc2, 0xed, 0x80, 0x13, 0x9f, 0xfb, 0x25, 0x92, 0x76, 0x9b, 0x24,
-	0x78, 0x8e, 0x37, 0xa5, 0x7b, 0xd9, 0xe7, 0x4c, 0xe1, 0x96, 0xcf, 0x3a, 0x67, 0xde, 0x4d, 0xda,
-	0x9e, 0x0d, 0x68, 0x8c, 0xbc, 0x1d, 0x6d, 0x90, 0x1f, 0xdf, 0xfc, 0x7d, 0x72, 0x3a, 0x9b, 0x27,
-	0x9f, 0x93, 0x69, 0xef, 0x33, 0x5f, 0xc3, 0x52, 0xf1, 0xf5, 0xf7, 0xb0, 0xf2, 0x87, 0x55, 0x2a,
-	0xf2, 0xb3, 0xae, 0xe5, 0xe1, 0x27, 0x00, 0x00, 0xff, 0xff, 0xf0, 0xe8, 0x1f, 0x9a, 0x39, 0x02,
-	0x00, 0x00,
+	// 323 bytes of a gzipped FileDescriptorProto
+	0x1f, 0x8b, 0x08, 0x00, 0x00, 0x00, 0x00, 0x00, 0x02, 0xff, 0x94, 0x92, 0xc1, 0x4a, 0x33, 0x31,
+	0x10, 0xc7, 0xbf, 0xf6, 0x03, 0x0f, 0x91, 0x22, 0x04, 0xe9, 0xa1, 0x27, 0xf1, 0x66, 0xb5, 0x59,
+	0xb6, 0x3e, 0x41, 0x5b, 0xc1, 0x4b, 0xc1, 0x45, 0xa1, 0x07, 0x29, 0x94, 0x34, 0x1d, 0xdb, 0xe0,
+	0x76, 0x13, 0x93, 0x74, 0xa5, 0x07, 0x0f, 0xbe, 0x8a, 0x37, 0x7d, 0x14, 0x1f, 0xc4, 0xe7, 0x90,
+	0xdd, 0x76, 0xba, 0x2b, 0x1a, 0x59, 0x8f, 0x99, 0xf9, 0xfd, 0xe6, 0x3f, 0x90, 0x21, 0x47, 0x3c,
+	0xd6, 0x5c, 0xf0, 0x98, 0x4f, 0x6d, 0xa0, 0xb9, 0xb5, 0x8f, 0xca, 0xcc, 0x82, 0x34, 0x0c, 0xb8,
+	0x96, 0x4c, 0x1b, 0xe5, 0x14, 0x6d, 0x16, 0x04, 0x43, 0x82, 0xa5, 0x61, 0x2b, 0xf0, 0x9b, 0x13,
+	0x7c, 0x4f, 0x0c, 0x58, 0x70, 0x9b, 0x41, 0xbf, 0x0a, 0x62, 0x01, 0xe2, 0x7e, 0xa7, 0x6d, 0x84,
+	0xee, 0x73, 0x8d, 0x1c, 0x44, 0xdb, 0xd2, 0x0d, 0x98, 0x54, 0x0a, 0xa0, 0x09, 0x69, 0x0c, 0x32,
+	0x16, 0xeb, 0xf4, 0x8c, 0xfd, 0xbc, 0x1f, 0xfb, 0x82, 0x5d, 0xc3, 0xc3, 0x0a, 0xac, 0x6b, 0x75,
+	0x2a, 0xd2, 0x56, 0xab, 0xc4, 0xc2, 0xf1, 0xbf, 0xee, 0x47, 0x9d, 0x1c, 0x96, 0xca, 0xe0, 0x70,
+	0x91, 0x27, 0x42, 0x2f, 0xc1, 0x5d, 0x40, 0x2c, 0x53, 0x30, 0xeb, 0x2b, 0xed, 0xa4, 0x4a, 0x2c,
+	0x0d, 0x7d, 0xf3, 0xbf, 0xb3, 0xb8, 0x52, 0xf7, 0x2f, 0x0a, 0xee, 0x45, 0x17, 0x64, 0x7f, 0xdb,
+	0x1c, 0xa8, 0x19, 0xd0, 0xb6, 0x6f, 0x48, 0x09, 0xc2, 0xc0, 0xd3, 0x4a, 0xec, 0x2e, 0x09, 0x08,
+	0x19, 0x81, 0x91, 0x77, 0xeb, 0x3c, 0xe8, 0xc4, 0x27, 0x17, 0x0c, 0xe6, 0xb4, 0xab, 0xa0, 0x18,
+	0xd3, 0x7f, 0xad, 0x91, 0x96, 0x50, 0x4b, 0x8f, 0xd3, 0x6f, 0xe0, 0x27, 0x44, 0xd9, 0x69, 0x44,
+	0xb5, 0xdb, 0xfe, 0x5c, 0xba, 0xc5, 0x6a, 0xca, 0x84, 0x5a, 0x06, 0xbd, 0xdc, 0x19, 0xe6, 0x87,
+	0x95, 0xb5, 0x0d, 0x68, 0xd5, 0x41, 0xbb, 0x33, 0x57, 0x9e, 0xcb, 0x7b, 0xa9, 0xff, 0xef, 0x0d,
+	0xa3, 0xb7, 0x7a, 0xb3, 0xf0, 0x19, 0xc6, 0xb0, 0x51, 0xf8, 0x5e, 0x6e, 0x8c, 0xb1, 0x31, 0x1e,
+	0x85, 0xd3, 0xbd, 0x3c, 0xe5, 0xfc, 0x33, 0x00, 0x00, 0xff, 0xff, 0x35, 0x19, 0x55, 0xf8, 0x3d,
+	0x03, 0x00, 0x00,
 }
 
 // Reference imports to suppress errors if they are not otherwise used.
@@ -58,12 +61,7 @@ const _ = grpc.SupportPackageIsVersion4
 //
 // For semantics around ctx use and closing/ending streaming RPCs, please refer to https://godoc.org/google.golang.org/grpc#ClientConn.NewStream.
 type PasswordServiceClient interface {
-	// initiate the password reset flow by providing an account identifier,
-	// which can be a username, email, or phone number.
-	// the account's primary email address will be emailed w/ the reset code.
-	StartResetFlow(ctx context.Context, in *StartResetFlowRequest, opts ...grpc.CallOption) (*StartResetFlowResponse, error)
-	// complete the password reset flow by sending the reset code, the account id, and the new password
-	VerifyCode(ctx context.Context, in *VerifyCodeRequest, opts ...grpc.CallOption) (*VerifyCodeResponse, error)
+	CheckPassword(ctx context.Context, in *CheckPasswordRequest, opts ...grpc.CallOption) (*CheckPasswordResponse, error)
 }
 
 type passwordServiceClient struct {
@@ -74,18 +72,9 @@ func NewPasswordServiceClient(cc *grpc.ClientConn) PasswordServiceClient {
 	return &passwordServiceClient{cc}
 }
 
-func (c *passwordServiceClient) StartResetFlow(ctx context.Context, in *StartResetFlowRequest, opts ...grpc.CallOption) (*StartResetFlowResponse, error) {
-	out := new(StartResetFlowResponse)
-	err := c.cc.Invoke(ctx, "/alpacalabs.password.v1.PasswordService/StartResetFlow", in, out, opts...)
-	if err != nil {
-		return nil, err
-	}
-	return out, nil
-}
-
-func (c *passwordServiceClient) VerifyCode(ctx context.Context, in *VerifyCodeRequest, opts ...grpc.CallOption) (*VerifyCodeResponse, error) {
-	out := new(VerifyCodeResponse)
-	err := c.cc.Invoke(ctx, "/alpacalabs.password.v1.PasswordService/VerifyCode", in, out, opts...)
+func (c *passwordServiceClient) CheckPassword(ctx context.Context, in *CheckPasswordRequest, opts ...grpc.CallOption) (*CheckPasswordResponse, error) {
+	out := new(CheckPasswordResponse)
+	err := c.cc.Invoke(ctx, "/alpacalabs.password.v1.PasswordService/CheckPassword", in, out, opts...)
 	if err != nil {
 		return nil, err
 	}
@@ -94,50 +83,27 @@ func (c *passwordServiceClient) VerifyCode(ctx context.Context, in *VerifyCodeRe
 
 // PasswordServiceServer is the server API for PasswordService service.
 type PasswordServiceServer interface {
-	// initiate the password reset flow by providing an account identifier,
-	// which can be a username, email, or phone number.
-	// the account's primary email address will be emailed w/ the reset code.
-	StartResetFlow(context.Context, *StartResetFlowRequest) (*StartResetFlowResponse, error)
-	// complete the password reset flow by sending the reset code, the account id, and the new password
-	VerifyCode(context.Context, *VerifyCodeRequest) (*VerifyCodeResponse, error)
+	CheckPassword(context.Context, *CheckPasswordRequest) (*CheckPasswordResponse, error)
 }
 
 func RegisterPasswordServiceServer(s *grpc.Server, srv PasswordServiceServer) {
 	s.RegisterService(&_PasswordService_serviceDesc, srv)
 }
 
-func _PasswordService_StartResetFlow_Handler(srv interface{}, ctx context.Context, dec func(interface{}) error, interceptor grpc.UnaryServerInterceptor) (interface{}, error) {
-	in := new(StartResetFlowRequest)
+func _PasswordService_CheckPassword_Handler(srv interface{}, ctx context.Context, dec func(interface{}) error, interceptor grpc.UnaryServerInterceptor) (interface{}, error) {
+	in := new(CheckPasswordRequest)
 	if err := dec(in); err != nil {
 		return nil, err
 	}
 	if interceptor == nil {
-		return srv.(PasswordServiceServer).StartResetFlow(ctx, in)
+		return srv.(PasswordServiceServer).CheckPassword(ctx, in)
 	}
 	info := &grpc.UnaryServerInfo{
 		Server:     srv,
-		FullMethod: "/alpacalabs.password.v1.PasswordService/StartResetFlow",
+		FullMethod: "/alpacalabs.password.v1.PasswordService/CheckPassword",
 	}
 	handler := func(ctx context.Context, req interface{}) (interface{}, error) {
-		return srv.(PasswordServiceServer).StartResetFlow(ctx, req.(*StartResetFlowRequest))
-	}
-	return interceptor(ctx, in, info, handler)
-}
-
-func _PasswordService_VerifyCode_Handler(srv interface{}, ctx context.Context, dec func(interface{}) error, interceptor grpc.UnaryServerInterceptor) (interface{}, error) {
-	in := new(VerifyCodeRequest)
-	if err := dec(in); err != nil {
-		return nil, err
-	}
-	if interceptor == nil {
-		return srv.(PasswordServiceServer).VerifyCode(ctx, in)
-	}
-	info := &grpc.UnaryServerInfo{
-		Server:     srv,
-		FullMethod: "/alpacalabs.password.v1.PasswordService/VerifyCode",
-	}
-	handler := func(ctx context.Context, req interface{}) (interface{}, error) {
-		return srv.(PasswordServiceServer).VerifyCode(ctx, req.(*VerifyCodeRequest))
+		return srv.(PasswordServiceServer).CheckPassword(ctx, req.(*CheckPasswordRequest))
 	}
 	return interceptor(ctx, in, info, handler)
 }
@@ -147,12 +113,172 @@ var _PasswordService_serviceDesc = grpc.ServiceDesc{
 	HandlerType: (*PasswordServiceServer)(nil),
 	Methods: []grpc.MethodDesc{
 		{
-			MethodName: "StartResetFlow",
-			Handler:    _PasswordService_StartResetFlow_Handler,
+			MethodName: "CheckPassword",
+			Handler:    _PasswordService_CheckPassword_Handler,
+		},
+	},
+	Streams:  []grpc.StreamDesc{},
+	Metadata: "alpacalabs/password/v1/api.proto",
+}
+
+// PasswordResetServiceClient is the client API for PasswordResetService service.
+//
+// For semantics around ctx use and closing/ending streaming RPCs, please refer to https://godoc.org/google.golang.org/grpc#ClientConn.NewStream.
+type PasswordResetServiceClient interface {
+	// GetDeliveryOptions is Step 1 in the password reset flow.
+	//
+	// In exchange for some account identifier (an email, username, or phone number)
+	// clients will receive their devices that can receive codes -- any of their
+	// confirmed email addresses and phone numbers -- so they can choose how they
+	// want to receive their code.
+	//
+	// Behind the scenes, this will persist a code in the DB. The response will
+	// contain that entity's primary key and delivery options for the client.
+	GetDeliveryOptions(ctx context.Context, in *GetDeliveryOptionsRequest, opts ...grpc.CallOption) (*GetDeliveryOptionsResponse, error)
+	// DeliverCode is Step 2 in the password reset flow.
+	//
+	// The client sends the primary key of their code, as well as the primary key of
+	// an email address or phone number that will receive the code.
+	DeliverCode(ctx context.Context, in *DeliverCodeRequest, opts ...grpc.CallOption) (*DeliverCodeResponse, error)
+	// VerifyCode is Step 3 in the password reset flow.
+	//
+	// The client sends the random code they received, the primary key of their account,
+	// and the new password they wish to use.
+	VerifyCode(ctx context.Context, in *VerifyCodeRequest, opts ...grpc.CallOption) (*VerifyCodeResponse, error)
+}
+
+type passwordResetServiceClient struct {
+	cc *grpc.ClientConn
+}
+
+func NewPasswordResetServiceClient(cc *grpc.ClientConn) PasswordResetServiceClient {
+	return &passwordResetServiceClient{cc}
+}
+
+func (c *passwordResetServiceClient) GetDeliveryOptions(ctx context.Context, in *GetDeliveryOptionsRequest, opts ...grpc.CallOption) (*GetDeliveryOptionsResponse, error) {
+	out := new(GetDeliveryOptionsResponse)
+	err := c.cc.Invoke(ctx, "/alpacalabs.password.v1.PasswordResetService/GetDeliveryOptions", in, out, opts...)
+	if err != nil {
+		return nil, err
+	}
+	return out, nil
+}
+
+func (c *passwordResetServiceClient) DeliverCode(ctx context.Context, in *DeliverCodeRequest, opts ...grpc.CallOption) (*DeliverCodeResponse, error) {
+	out := new(DeliverCodeResponse)
+	err := c.cc.Invoke(ctx, "/alpacalabs.password.v1.PasswordResetService/DeliverCode", in, out, opts...)
+	if err != nil {
+		return nil, err
+	}
+	return out, nil
+}
+
+func (c *passwordResetServiceClient) VerifyCode(ctx context.Context, in *VerifyCodeRequest, opts ...grpc.CallOption) (*VerifyCodeResponse, error) {
+	out := new(VerifyCodeResponse)
+	err := c.cc.Invoke(ctx, "/alpacalabs.password.v1.PasswordResetService/VerifyCode", in, out, opts...)
+	if err != nil {
+		return nil, err
+	}
+	return out, nil
+}
+
+// PasswordResetServiceServer is the server API for PasswordResetService service.
+type PasswordResetServiceServer interface {
+	// GetDeliveryOptions is Step 1 in the password reset flow.
+	//
+	// In exchange for some account identifier (an email, username, or phone number)
+	// clients will receive their devices that can receive codes -- any of their
+	// confirmed email addresses and phone numbers -- so they can choose how they
+	// want to receive their code.
+	//
+	// Behind the scenes, this will persist a code in the DB. The response will
+	// contain that entity's primary key and delivery options for the client.
+	GetDeliveryOptions(context.Context, *GetDeliveryOptionsRequest) (*GetDeliveryOptionsResponse, error)
+	// DeliverCode is Step 2 in the password reset flow.
+	//
+	// The client sends the primary key of their code, as well as the primary key of
+	// an email address or phone number that will receive the code.
+	DeliverCode(context.Context, *DeliverCodeRequest) (*DeliverCodeResponse, error)
+	// VerifyCode is Step 3 in the password reset flow.
+	//
+	// The client sends the random code they received, the primary key of their account,
+	// and the new password they wish to use.
+	VerifyCode(context.Context, *VerifyCodeRequest) (*VerifyCodeResponse, error)
+}
+
+func RegisterPasswordResetServiceServer(s *grpc.Server, srv PasswordResetServiceServer) {
+	s.RegisterService(&_PasswordResetService_serviceDesc, srv)
+}
+
+func _PasswordResetService_GetDeliveryOptions_Handler(srv interface{}, ctx context.Context, dec func(interface{}) error, interceptor grpc.UnaryServerInterceptor) (interface{}, error) {
+	in := new(GetDeliveryOptionsRequest)
+	if err := dec(in); err != nil {
+		return nil, err
+	}
+	if interceptor == nil {
+		return srv.(PasswordResetServiceServer).GetDeliveryOptions(ctx, in)
+	}
+	info := &grpc.UnaryServerInfo{
+		Server:     srv,
+		FullMethod: "/alpacalabs.password.v1.PasswordResetService/GetDeliveryOptions",
+	}
+	handler := func(ctx context.Context, req interface{}) (interface{}, error) {
+		return srv.(PasswordResetServiceServer).GetDeliveryOptions(ctx, req.(*GetDeliveryOptionsRequest))
+	}
+	return interceptor(ctx, in, info, handler)
+}
+
+func _PasswordResetService_DeliverCode_Handler(srv interface{}, ctx context.Context, dec func(interface{}) error, interceptor grpc.UnaryServerInterceptor) (interface{}, error) {
+	in := new(DeliverCodeRequest)
+	if err := dec(in); err != nil {
+		return nil, err
+	}
+	if interceptor == nil {
+		return srv.(PasswordResetServiceServer).DeliverCode(ctx, in)
+	}
+	info := &grpc.UnaryServerInfo{
+		Server:     srv,
+		FullMethod: "/alpacalabs.password.v1.PasswordResetService/DeliverCode",
+	}
+	handler := func(ctx context.Context, req interface{}) (interface{}, error) {
+		return srv.(PasswordResetServiceServer).DeliverCode(ctx, req.(*DeliverCodeRequest))
+	}
+	return interceptor(ctx, in, info, handler)
+}
+
+func _PasswordResetService_VerifyCode_Handler(srv interface{}, ctx context.Context, dec func(interface{}) error, interceptor grpc.UnaryServerInterceptor) (interface{}, error) {
+	in := new(VerifyCodeRequest)
+	if err := dec(in); err != nil {
+		return nil, err
+	}
+	if interceptor == nil {
+		return srv.(PasswordResetServiceServer).VerifyCode(ctx, in)
+	}
+	info := &grpc.UnaryServerInfo{
+		Server:     srv,
+		FullMethod: "/alpacalabs.password.v1.PasswordResetService/VerifyCode",
+	}
+	handler := func(ctx context.Context, req interface{}) (interface{}, error) {
+		return srv.(PasswordResetServiceServer).VerifyCode(ctx, req.(*VerifyCodeRequest))
+	}
+	return interceptor(ctx, in, info, handler)
+}
+
+var _PasswordResetService_serviceDesc = grpc.ServiceDesc{
+	ServiceName: "alpacalabs.password.v1.PasswordResetService",
+	HandlerType: (*PasswordResetServiceServer)(nil),
+	Methods: []grpc.MethodDesc{
+		{
+			MethodName: "GetDeliveryOptions",
+			Handler:    _PasswordResetService_GetDeliveryOptions_Handler,
+		},
+		{
+			MethodName: "DeliverCode",
+			Handler:    _PasswordResetService_DeliverCode_Handler,
 		},
 		{
 			MethodName: "VerifyCode",
-			Handler:    _PasswordService_VerifyCode_Handler,
+			Handler:    _PasswordResetService_VerifyCode_Handler,
 		},
 	},
 	Streams:  []grpc.StreamDesc{},
